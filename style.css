@@ -38,13 +38,9 @@ input[type="textbox"] {
 }
 
 /* Style the "RESULT" heading differently */
-#res {
-    font-size: 48px;
-    font-weight: bold;
-    color: #4CAF50; /* Green */
-    margin-top: 20px;
+.res{
+    width:auto;
 }
-
 /* Style the button button */
 input[type="button"] {
     background-color: #FFD700; /* Gold */
