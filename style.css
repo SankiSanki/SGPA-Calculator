@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto; /* Automatically size rows based on content */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the heading elements (h2 and h3) */
+h2 {
+    font-size: 36px;
+    color: #1E90FF; /* Dodger Blue */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #FF5733; /* Deep Salmon */
+    margin: 10px 0;
+}
+
+/* Style the text input fields */
+input[type="textbox"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: auto; /* Let the width adjust to the content */
+    display: block;
+}
+
+/* Style the "RESULT" heading differently */
+#res {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4CAF50; /* Green */
+    margin-top: 20px;
+}
+
+/* Style the button button */
+input[type="button"] {
+    background-color: #FFD700; /* Gold */
+    color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #FFA500; /* Orange */
+}
